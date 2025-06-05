@@ -5,6 +5,11 @@
 
 =Orthanc=: Its free and open-source, lightweight DICOM server for medical imaging.
 
+***
+To use DICOMweb client  (self) use the orthanc-dicomweb-activated.json : Rename this file to orthanc.json 
+this will replace the original orthanc.json !!
+***
+
 *** Create new docker network =pacs=
 #+begin_src bash
 docker network create pacs
